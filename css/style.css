@@ -170,7 +170,7 @@ h1 , h2{
     margin-bottom: 30px;
 }
 #bg-blue{
-    background-color: rgba(131, 74, 255, 0.767);
+    background-color: rgba(101, 125, 255, 0.767);
     color: white;
 }
 
@@ -181,11 +181,13 @@ h1 , h2{
 #main-col{
     width: 25%;
     /* debug rule */
-    background-color: brown;
     font-size: 25px;
 }
-.flag{
+.flag-img{
     width: 10%;
+}
+.flag{
+    color: white;
 }
 
 .col{
@@ -193,17 +195,17 @@ h1 , h2{
     margin-bottom: 20px;
     margin-top: 5px;
     /* debug rules */
-    background-color: rgba(18, 185, 171, 0.847);
-    border: 1px solid black;
+    /* background-color: rgba(243, 22, 22, 0.847); */
+    /* border: 1px solid black; */
 }
 
 .last-container{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 400px;
+    height: 500px;
     /* debug rules */
-    background-color: black;
+    background-color:black;
     
 }
 
@@ -216,11 +218,39 @@ h1 , h2{
     width: 65%;
     height: 60px;
     /* debug rules */
-    background-color: rgb(26, 255, 182);
-    border: 1px solid black;
+    /* background-color: rgb(26, 209, 255); */
+    
 }
 
+h3 , h4{
+    font-size: 28px;
+    margin: 20px 0 ;
+    color:rgba(101, 125, 255, 0.767);
+}
+.social{
+    margin-top: 20px;
+    color: white;
+}
 
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 18px;
+}
+#footer-last-block{
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#last-botton{
+    background-color: rgba(101, 125, 255, 0.767);
+    color: white;
+}
+footer{
+    background-color:black;
+}
 
 
 
